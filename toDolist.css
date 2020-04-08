@@ -1,6 +1,6 @@
 li:hover{
 	text-decoration: line-through;
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
 li{
 	font-family: 'Lato', sans-serif;
@@ -23,6 +23,7 @@ button:hover{
 	box-shadow: 5px 10px 5px #4498ad;
 	align-items: center;
 	background-color: transparent;
+	margin-bottom: 20px;
 }
 
 h1{
@@ -40,7 +41,16 @@ label{
 	text-align: center;
 	font-weight: bold;
 	font-family: 'Lato', sans-serif;
+	align-items: center;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	background-color: white;
+	
 }
+
 img{
 	width: 20px;
 	height: 20px;
